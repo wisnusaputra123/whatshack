@@ -42,13 +42,13 @@ if [ "$(id -u)" = "0" ]; then
 	while true
 		do
 			clear
-			echo -e "$yellowColour __      _(_)___ _ __  _   _     ___  __ _ _ __  _   _| |_ _ __ __ _$endColour"
+			echo -e "$yellowColour __      _(_)___ _ __  _   __$endColour"
 			sleep 0.4
-			echo -e "$yellowColour \ \ /\ / / / __| '_ \| | | |    / __|/ _` | '_ \| | | | __| '__/ _` |$endColour"
+			echo -e "$yellowColour \ \ /\ / / / __| '_ \| | | |$endColour"
 			sleep 0.4
-			echo -e "$yellowColour  \ V  V /| \__ \ | | | |_| |    \__ \ (_| | |_) | |_| | |_| | | (_| |$endColour"
+			echo -e "$yellowColour  \ V  V /| \__ \ | | | |_| |$endColour"
 			sleep 0.4
-			echo -e "$yellowColour   \_/\_/ |_|___/_| |_|\__,_|    |___/\__,_| .__/ \__,_|\__|_|  \__,_|$endColour"
+			echo -e "$yellowColour   \_/\_/ |_|___/_| |_|\__,_|$endColour"
 			sleep 0.8
 			echo -e "$blueColour ----------------------------------------------------------------$endColour"
 			echo -e "$yellowColour 1. Create a BackDoor$endColour"
@@ -58,7 +58,7 @@ if [ "$(id -u)" = "0" ]; then
 			echo -e "$yellowColour 5. Delete 'whatsapp_config.txt' actual"
 			echo -e "$redColour 0. Salir$endColour"
 			echo -e "$blueColour ----------------------------------------------------------------$endColour"
-			echo -e -n "$redColour-> Select an option: $endColour"
+			echo -e -n "$redColour-> Pilih Nomer: $endColour"
 			read answer
 
 			if [ "$answer" = "1" ]; then
